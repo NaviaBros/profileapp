@@ -1,0 +1,154 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'estonia', sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+h4{
+    font-family: 'estonia', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+td {
+    font-size: 2rem;
+    padding: 0 5rem;
+}
+
+a{
+    color: aliceblue;
+}
+
+/* HOME */
+#header {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 7rem;  
+}
+
+#header .container-fluid {
+    padding: 0px;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-toggler-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-item {
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.container-fluid {
+    padding: 4% 10%;
+}
+
+.material-symbols-outlined{
+    text-shadow: -1.5px 0 whitesmoke, 0 1.5px whitesmoke, 1.5px 0 whitesmoke, 0 -1.5px whitesmoke;
+}
+
+.material-symbols-outlined:hover #home{
+    color: palegoldenrod;
+}
+
+/* NAVIGATION BAR + TITLE + LINKS */
+.textTitle h1 {
+    color: black;
+    font-family: 'Pacifico', cursive , sans-serif;    
+    line-height: 1.5;
+    text-align: left;
+    font-size: 4.5rem;
+    padding-left: 1.5rem;
+    text-shadow: -1.5px 0 whitesmoke, 0 1.5px whitesmoke, 1.5px 0 whitesmoke, 0 -1.5px whitesmoke;
+}
+
+.dpImage {
+    background-image:linear-gradient(to right, brown, rgb(239, 137, 5));
+    border-radius: 100%;
+    height: 220px;
+    margin: 4rem;
+    padding: 1px 1px; 
+    position: relative; 
+}
+
+#mediaLinks {
+    padding: 4rem;
+    position: relative;
+    text-align: center;
+}
+
+#mediaLinks .material-symbols-outlined{
+    margin: 2rem;
+}
+
+
+
+
+#about {
+    padding: 0 7rem;
+    margin: 7rem 0rem;
+}
+
+.textAbout h2{
+    text-shadow: -2px 1 brown, 0 2px  brown, 2px 0  brown, 0 -2px  brown;
+}
+
+
+
+
+
+.imageLogos {
+    padding: 2rem;
+    width: 10rem;
+}
+
+#experience {
+    padding: 2rem;
+}
+
+.card {
+    margin: 2rem;
+}
+
+
+
+
+
+/* START 1200 PX NARROW VIEW */
+
+@media (max-width: 700px) {
+
+.textTitle h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.titleImage {
+    transform: rotate(0deg);
+    height: 450px;
+    margin: 2rem;    
+}
+
+.textAbout h2{
+    font-size: 70px;
+}
+
+#mediaLinks .material-symbols-outlined{
+    margin: 30px 20px;
+}
+
+}
